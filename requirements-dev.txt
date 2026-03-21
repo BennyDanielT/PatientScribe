@@ -1,0 +1,13 @@
+# Production dependencies
+-r requirements-prod.txt
+
+# Development dependencies
+
+# Mypy - Static type checker for Python (catch type errors before runtime)
+mypy
+
+# Black - Code formatter (ensures consistent code style across the project)
+black
+
+# Autoflake - Removes unused imports and variables automatically
+autoflake

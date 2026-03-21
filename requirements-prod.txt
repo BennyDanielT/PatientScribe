@@ -1,0 +1,14 @@
+# FastAPI - Modern async web framework for building REST APIs
+fastapi
+
+# Uvicorn - ASGI server to run FastAPI applications
+uvicorn
+
+# python-dotenv - Load environment variables from .env files
+python-dotenv
+
+# Loguru - Modern logging library with automatic correlation ID and context injection
+loguru
+
+# Rich - Beautiful terminal formatting, used by Loguru for RichHandler output
+rich
