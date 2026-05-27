@@ -11,3 +11,15 @@ __pycache__/
 
 #Archive
 Archive/
+
+# Environment Variables
+.env
+
+# Docker
+.venv
+
+# Documents
+documents/LOGGING.md
+documents/QUESTIONS.md
+documents/CHECKLIST.md
+documents/context/

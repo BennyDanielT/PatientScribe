@@ -1,4 +1,4 @@
-# 🚀 GETTING STARTED - 5 MINUTE SETUP
+# GETTING STARTED
 
 ## Step 1: Start Your App (30 seconds)
 

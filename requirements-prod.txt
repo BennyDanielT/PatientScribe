@@ -12,3 +12,7 @@ loguru
 
 # Rich - Beautiful terminal formatting, used by Loguru for RichHandler output
 rich
+
+# OpenAI - Official library to interact with OpenAI APIs
+openai
+
