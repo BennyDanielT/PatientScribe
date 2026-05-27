@@ -15,7 +15,7 @@ from starlette.responses import Response
 
 # Context variable to store correlation ID
 # This is thread-safe and async-safe
-correlation_id_var: ContextVar[str] = ContextVar("correlation_id", default="")
+correlation_id_var: ContextVar[str] = ContextVar("correlation_id", default="N/A")
 
 
 def get_correlation_id() -> str:
@@ -52,9 +52,6 @@ class CorrelationIDMiddleware(BaseHTTPMiddleware):
     - Stores correlation ID in contextvars for async-safe access
     - Adds correlation ID to response headers for client tracing
 
-    Example:
-        In your FastAPI app:
-        app.add_middleware(CorrelationIDMiddleware)
     """
 
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
